@@ -550,10 +550,6 @@ footer .footerSecondary {
 /***************/
 
 @media (max-width: 991.98px) {
-	.informations ul {
-		display: flex;
-		justify-content: space-around;
-	}
 	.items article{
 		width: 42%;
 	}
@@ -592,5 +588,31 @@ footer .footerSecondary {
 
 	.ul_li ul{
 		width: 80%;
+	}
+
+	.limitedWidthBlock{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.id_conteneur{
+		width: 100%;
+		flex-direction: column;
+	}
+
+	#conteneur{
+		width: 50vw;
+    	height: 50vw;
+    	margin: 50px;
+	}
+
+	.cercle{
+		width: 20vw;
+	    height: 20vw;
+	    transform: translate(-10vw, -10vw);
+	}
+
+	.pack_img, .pack_text {
+	    width: 100%;
 	}
 }
