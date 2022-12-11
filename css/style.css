@@ -123,6 +123,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     padding: 0% 2%;
+    flex-wrap: wrap;
 }
 
 
@@ -568,6 +569,10 @@ footer .footerSecondary {
 		font-size: 30px;
 	}
 
+	h2{
+		font-size: 40px;
+	}
+
 	.menu nav ul {
 		padding: 0;
 		line-height: 10px;
@@ -604,6 +609,10 @@ footer .footerSecondary {
 		width: 50vw;
     	height: 50vw;
     	margin: 50px;
+	}
+
+	.sous_conteneur {
+	    width: 90%;
 	}
 
 	.cercle{
