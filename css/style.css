@@ -94,7 +94,7 @@ a:hover{
 
 /*Colors*/
 :root {
-	--secondary-color: #2c3e50;
+	--secondary-color: #244657;
 	--main-color: #2576DB;
 	--text-color: #ffffff;
 	--footer-text-color: #a6b0b3; 
@@ -106,6 +106,14 @@ a:hover{
 /********/
 /*Header*/
 /********/
+
+header{
+	position: fixed;
+    width: 100vw;
+    background-color: white;
+    z-index: 10;
+    color: var(--secondary-color);
+}
 
 /*menu*/
 
@@ -202,7 +210,7 @@ main {
 /*cercle*/
 
 .id_conteneur{
-	margin: 10vw 0vw;
+	margin: 5vw 0vw;
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -518,6 +526,7 @@ footer {
 	flex-direction: column;
 	font-size: 14px;
 }
+
 footer .footerMain,
 footer .footerSecondary {
 	width: 100%;
@@ -527,20 +536,31 @@ footer .footerSecondary {
 .footerMain {
 	background-color: var(--footer-main-color);
 	padding: 50px 0;
+	display: flex;
+	justify-content: center;
 }
-.footerMain .limitedWidthBlock {
+.footerMain .footer_sous {
 	display: flex;
 	justify-content: space-between;
+	width: 90%;
 }
-.footerMain .limitedWidthBlock div {
+
+.footer_sous-div{
+	width: 100%;
+    max-width: 1400px;
+    padding: 0 25px;
+}
+
+.footerMain .footer_sous div {
 	display: flex;
 	align-items: center;
 }
 
 /*footerSecondary*/
+
 .footerSecondary {
-	background-color: var(--footer-secondary-color);
-	padding: 25px 0;
+    background-color: var(--footer-secondary-color);
+    padding: 25px 0;
 }
 
 
