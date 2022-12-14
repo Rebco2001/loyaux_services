@@ -189,6 +189,8 @@ header{
 main {
 	background-color: var(--text-color);
 	font-family: 'Roboto', sans-serif;
+	position: relative;
+	top: 15vh;
 }
 
 /*banniere*/
@@ -202,9 +204,9 @@ main {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
     text-align: center;
     padding: 0% 10%;
+    margin-top: 100px;
 }
 
 /*cercle*/
@@ -394,6 +396,7 @@ main {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	align-items: center;
+	min-height: 600px;
 }
 
 .pack h2:hover{
@@ -516,6 +519,43 @@ form.cart__order__form {
 }
 
 
+/*maison*/
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 70%;
+  position: relative;
+}
+svg {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+  position: absolute;
+}
+
+.plus{
+	height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    z-index: 100;
+    left: 55%;
+    top: -2%;
+}
+
+.plus:hover{
+	background-color: black;
+	color: white;
+}
+
+
 /********/
 /*Footer*/
 /********/
@@ -613,11 +653,6 @@ footer .footerSecondary {
 
 	.ul_li ul{
 		width: 80%;
-	}
-
-	.limitedWidthBlock{
-		display: flex;
-		flex-wrap: wrap;
 	}
 
 	.id_conteneur{
