@@ -622,6 +622,10 @@ footer .footerSecondary {
 	.footerSecondary .limitedWidthBlock p {
 		text-align: center;
 	}
+
+	.pack{
+		min-height: 300px;
+	}
 }
 
 @media (max-width: 575.98px) { 
@@ -678,5 +682,9 @@ footer .footerSecondary {
 
 	.pack_img, .pack_text {
 	    width: 100%;
+	}
+
+	.pack{
+		min-height: 100px;
 	}
 }
