@@ -91,15 +91,23 @@ a:hover{
 	text-align: center;
 }
 
+.degrade{
+	background: linear-gradient(90deg,var(--ods-color-blue-700),var(--ods-color-blue-500)) 0% 0% no-repeat padding-box;
+}
 
 /*Colors*/
 :root {
-	--secondary-color: #244657;
+	--secondary-color: hsla(234.6deg,100%,30.6%,1);
 	--main-color: #2576DB;
 	--text-color: #ffffff;
 	--footer-text-color: #a6b0b3; 
 	--footer-main-color: #3d424f; 
 	--footer-secondary-color: #2d2f3e;
+	--ods-color-blue-500: hsla(217.7deg,100%,42.2%,1);
+	--ods-color-blue-500-list: 217.7deg,100%,42.2%;
+    --ods-color-blue-600: hsla(225.8deg,100%,37.3%,1);
+    --ods-color-blue-600-list: 225.8deg,100%,37.3%;
+    --ods-color-blue-700: hsla(234.6deg,100%,30.6%,1);
 }
 
 
@@ -155,7 +163,7 @@ header{
 .menu nav ul li {
 	list-style: none;
 	margin-left: 25px;
-	color: #3d4c68;
+	color: hsla(234.6deg,100%,30.6%,1);
 }
 .menu nav ul li:hover {
 	font-weight: 600;
@@ -174,7 +182,7 @@ header{
 }
 
 .sous_h1{
-	color: #B68349;
+	color: hsla(234.6deg,100%,30.6%,1);
     font-size: 20px;
 }
 
@@ -713,6 +721,14 @@ footer .footerSecondary {
 
 	.pack{
 		min-height: 300px;
+	}
+
+	.item{
+		margin: 40px 0px;
+	}
+
+	.item article {
+		width: 90%;
 	}
 }
 
