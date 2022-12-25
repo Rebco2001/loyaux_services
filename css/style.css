@@ -91,13 +91,9 @@ a:hover{
 	text-align: center;
 }
 
-.degrade{
-	background: linear-gradient(90deg,var(--ods-color-blue-700),var(--ods-color-blue-500)) 0% 0% no-repeat padding-box;
-}
-
 /*Colors*/
 :root {
-	--secondary-color: hsla(234.6deg,100%,30.6%,1);
+	--secondary-color: #244657ff;
 	--main-color: #2576DB;
 	--text-color: #ffffff;
 	--footer-text-color: #a6b0b3; 
@@ -118,17 +114,17 @@ a:hover{
 header{
 	position: fixed;
     width: 100vw;
-    background-color: white;
+    background-color: var(--secondary-color);
     z-index: 10;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 /*menu*/
 
 .limitedWidthBlockContainerMenu{
-	background-color: white;
+	background-color: var(--secondary-color);
 	height: 15vh;
-	color: #3d4c68;
+	color: var(--text-color);
 	display: flex;
 	justify-content: space-between;
 	margin: 0vw 10vw;
@@ -163,11 +159,14 @@ header{
 .menu nav ul li {
 	list-style: none;
 	margin-left: 25px;
-	color: hsla(234.6deg,100%,30.6%,1);
 }
 .menu nav ul li:hover {
 	font-weight: 600;
 	color: #3498db !important;
+}
+
+header li, header p, header a{
+	color: var(--text-color);
 }
 
 //logo
@@ -182,7 +181,6 @@ header{
 }
 
 .sous_h1{
-	color: hsla(234.6deg,100%,30.6%,1);
     font-size: 20px;
 }
 
