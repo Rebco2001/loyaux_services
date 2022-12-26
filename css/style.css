@@ -43,7 +43,7 @@ a:hover{
 }
 
 .title{
-	font-size: 48px;
+	font-size: 35px;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -67,9 +67,9 @@ a:hover{
 	width: 90vw;
 }
 
-.arrondi{
+/*.arrondi{
 	border-radius: 20px;
-}
+}*/
 
 .display{
 	display: flex;
@@ -180,8 +180,14 @@ header li, header p, header a{
 	align-items:center ;
 }
 
+.logo p{
+	font-size: 25px;
+}
+
 .sous_h1{
-    font-size: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -345,13 +351,13 @@ main {
 	padding: 10px;
 	padding-top: 25px;
 	width: 21%;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 .items article img {
 	width: 160px;
 	height: 160px;
 	object-fit: cover;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 .items article h3 {
 	font-size: 22px;
@@ -609,7 +615,7 @@ svg {
 
 .item__img img {
     width: 100%;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
 }
 
 .item__content {
