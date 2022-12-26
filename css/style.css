@@ -455,10 +455,22 @@ i.fa-solid.fa-circle-check {
 
 /*Compteur*/
 
-.counterup::after {
+.counterup98::after {
   content: counter(count);
   animation: counter 5s cubic-bezier(0,.5,.1,1) infinite;
-  counter-reset: count 100;
+  counter-reset: count 98;
+}
+
+.counterup7681::after {
+	content: counter(count);
+	animation: counter 5s cubic-bezier(0,.5,.1,1) infinite;
+	counter-reset: count 7681;
+}
+
+.counterup103::after {
+	content: counter(count);
+	animation: counter 5s cubic-bezier(0,.5,.1,1) infinite;
+	counter-reset: count 103;
 }
 
 @keyframes counter {
