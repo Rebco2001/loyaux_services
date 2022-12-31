@@ -174,6 +174,11 @@ header li, header p, header a{
 	color: var(--text-color);
 }
 
+#tel:hover{
+	border: transparent;
+	font-size: 150%;
+}
+
 //logo
 
 .logo {
