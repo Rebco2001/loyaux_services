@@ -32,6 +32,14 @@ p{
 	padding: 0px;
 }
 
+header p{
+	font-size: 1.6rem;
+}
+
+main p{
+	font-size: 1.6rem;
+}
+
 a{
 	text-decoration: none;
 	color: initial;
@@ -52,6 +60,11 @@ a:hover{
 	font-weight: 400;
 	font-size: 25px;
 	margin-bottom: 60px;
+}
+
+.p1 p{
+	padding: 0 0 0 20px;
+    border-left: 2px solid;
 }
 
 
@@ -88,7 +101,6 @@ a:hover{
 	width: 90%;
 	padding: 3% 5%;
 	background-color: var(--text-color);
-	margin-bottom: 50px;
 	text-align: center;
 }
 
@@ -236,13 +248,11 @@ main {
 .banniere_text {
     position: absolute;
     text-align: -webkit-left;
-    padding: 0 0 0 20px;
     left: 20px;
     z-index: 0;
     color: var(--secondary-color);
     width: 50%;
     bottom: 80px;
-    border-left: 2px solid;
 }
 
 /*cercle*/
@@ -253,7 +263,7 @@ main {
     width: 100%;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #conteneur{
@@ -693,6 +703,12 @@ svg {
     line-height: 120%;
     margin-top: 20px;
 	font-size: large;
+}
+
+.blue{
+	background-color: var(--secondary-color);
+	color: var(--text-color);
+	margin-bottom: 40px;
 }
 
 /********/
