@@ -25,17 +25,40 @@
           <a href="index.html">
             <div class="logo"><p>Loyaux<br><span class="sous_h1">Services</span></p></div>
           </a>
+      
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+          </script>
 
           <nav>
             <ul>
-              <a href="particulier.html"><li>Particulier</li></a>
-              <a href="profesionnel.html"><li>Professionnel</li></a>
-              <a href="gestionnaire.html"><li>Gestionnaire</li></a>
+              <a href="particulier.html"><li>Contract Particulier</li></a>
+              <a href="profesionnel.html"><li>Contract Professionnel</li></a>
+              <a href="gestionnaire.html"><li>Contract Gestionnaire</li></a>
+              <a href="gestionnaire.html"><li>Dépannages Hors Contract</li></a>
+              <a href="tel:+33186163042"><li>01.86.16.30.42</li></a>
             </ul>
           </nav>
-
-          <a href="tel:+33186163042">01.86.16.30.42</a>
         </div>
+      </div>
+      <div class="topnav">
+        <div id="myLinks">
+          <a href="particulier.html"><li>Contract Particulier</li></a>
+          <a href="profesionnel.html"><li>Contract Professionnel</li></a>
+          <a href="gestionnaire.html"><li>Contract Gestionnaire</li></a>
+          <a href="gestionnaire.html"><li>Dépannages Hors Contract</li></a>
+          <a href="gestionnaire.html"><li>Nous contacter</li></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="border: transparent;">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </header>
 
@@ -43,10 +66,10 @@
 
 
     <main>
-      <div class="limitedWidthBlockContainer">
-        <div class="limitedWidthBlock banniere">
+      <div class="limitedWidthBlockContainer banniere">
+        <div class="banniere_text">
           <span class="title"><p>Loyaux Services, c’est une offre complète de services de dépannage réunie en un contrat</p></span>
-          <span class="p1"><p>Dites stop aux factures d’artisans anormalement élevées,<br>optez pour la solution Loyaux Services</p></span>
+          <span class="p1"><p>Dites stop aux factures d’artisans anormalement élevées, optez pour la solution Loyaux Services</p></span>
         </div>
       </div>
         
@@ -54,23 +77,22 @@
       <div class="limitedWidthBlockContainer marge">
         <div class="limitedWidthBlock arrondi centre degrade">
           <div class="titles">
-            <h2 id="who" class="title">Loyaux Services en bref</h2>
-            <span class="p2"><p>Loyaux Services, c’est une offre complète de services, adaptée à vos besoins</p></span>
-            <i class="fa-solid fa-minus"></i>
+            <h1 id="who" class="title">Loyaux Services en bref</h1>
+            <span class="p2"><p>Loyaux Services, c’est une offre complète de services 4 métiers de dépannage réunis en un contrat</p></span>
             <span class="sous_conteneur"><p></p></span>
           </div>
           <div class="id_conteneur">
             <div class="sous_conteneur">
               <p>
-                <i class="fa-sharp fa-solid fa-check"></i>Loyaux Services met à votre disposition une assistance téléphonique 24 heures sur 24, 6/7 jours.<br><br><i class="fa-sharp fa-solid fa-check"></i>Si notre assistance téléphonique ne suffit pas, un de nos techniciens se déplacera sur l’Île-de-France sous 4h.<br><br><i class="fa-sharp fa-solid fa-check"></i>Serrurerie:<br>Ouverture de porte, pose et dépose de serrure, installation d’une serrure en création, rabotage de la porte, réglage visserie, installation de petites et grosses fournitures, mise à disposition de petite fourniture. 
+                <i class="fa-sharp fa-solid fa-check"></i>Loyaux Services met à votre disposition une assistance téléphonique 24 heures sur 24, 6/7 jours.<br><br><i class="fa-sharp fa-solid fa-check"></i>Si notre assistance téléphonique ne suffit pas, un de nos techniciens se déplacera sur l’Île-de-France sous 2h.<br><br><i class="fa-sharp fa-solid fa-check"></i><strong>Serrurerie</strong><br>Ouverture de porte, pose et dépose de serrure, installation d’une serrure en création, rabotage de la porte, réglage visserie, installation de petites et grosses fournitures, mise à disposition de petite fourniture...
               </p>
             </div>
             <div id="conteneur">
               <div class="cercle" style="background-color: #6f508dff"><p><i class="fa-solid fa-key"></i></p></div>
               <div class="cercle" style="background-color: #2b7589ff;"><p><i class="fa-solid fa-lightbulb"></i></p></div>
               <div class="cercle" style="background-color: #ff9900ff;"><p><i class="fa-solid fa-phone"></i></p></div>
-              <div class="cercle" style="background-color: #5c5046ff;"><p><i class="fa-solid fa-wrench"></i></p></div>
-              <div class="cercle" style="background-color: #003366ff"><p><i class="fa-solid fa-house"></i></p></div>
+              <div class="cercle" style="background-color: #5c5046ff;"><p><i class="fa-solid fa-house-chimney-window"></i></p></div>
+              <div class="cercle" style="background-color: #003366ff"><p><i class="fa-solid fa-sink"></i></p></div>
             </div>
             <script type="text/javascript">
               const cercles = document.getElementsByClassName('cercle');
@@ -87,7 +109,7 @@
             </script>
             <div class="sous_conteneur">
               <p>
-                <i class="fa-sharp fa-solid fa-check"></i> Electricité:<br>Recherche de pannes, prestation de remplacement des éléments défectueux, installation, mise à disposition de petite fourniture. <br><br><i class="fa-sharp fa-solid fa-check"></i>Plomberie:<br>Recherche de fuites, débouchage à la pompe, débouchage au furet, prestation de remplacement des éléments défectueux, petite soudure, installation, mise à disposition de petite fourniture.<br><br><i class="fa-sharp fa-solid fa-check"></i>Vitrerie:<br>Pose de vitrage simple, pose de double vitrage, pose de vitrage arrondie, pose de vitrage biseautée, mise à disposition de petite fourniture.
+                <i class="fa-sharp fa-solid fa-check"></i><strong>Electricité</strong><br>Recherche de pannes, prestation de remplacement des éléments défectueux, installation, mise à disposition de petite fourniture...<br><br><i class="fa-sharp fa-solid fa-check"></i><strong>Plomberie</strong><br>Recherche de fuites, débouchage à la pompe, débouchage au furet, prestation de remplacement des éléments défectueux, petite soudure, installation, mise à disposition de petite fourniture...<br><br><i class="fa-sharp fa-solid fa-check"></i><strong>Vitrerie</strong><br>Pose de vitrage simple, pose de double vitrage, pose de vitrage arrondie, pose de vitrage biseautée, mise à disposition de petite fourniture...
               </p>
             </div>
           </div>
@@ -97,25 +119,31 @@
 
       <div class="limitedWidthBlock white" id="services">
         <div class="titles">
-          <h1 id="nosServices">Nos contrats</h1>
+          <h1 id="nosServices">Nos Offres</h1>
         </div>
         <section class="items" id="items"> 
           <article class="degrade">
             <img src="images/2.png">
-            <h3 class="productName">Particulier</h3>
+            <h3 class="productName">Contract Particulier</h3>
             <p class="productDescription">29,99€ TTC / Mois</p>
           </article>
 
           <article class="degrade">
             <img src="images/3.png">
-            <h3 class="productName">Professionnel</h3>
+            <h3 class="productName">Contract Professionnel</h3>
             <p class="productDescription">69,99€ HT / Mois</p>
           </article>
 
           <article class="degrade">
             <img src="images/4.png" alt="Lorem ipsum dolor sit amet, Kanap name1">
-            <h3 class="productName">Gestionnaire de biens</h3>
-            <p class="productDescription">Loyaux Services conviendra avec vous d’un contrat sur mesure et adapté à vos besoins (nombre de biens en gestion,...)</p>
+            <h3 class="productName">Contract Gestionnaire De Biens</h3>
+            <p class="productDescription">Loyaux Services conviendra avec vous d’un contrat sur mesure et adapté à vos besoins</p>
+          </article>
+
+          <article class="degrade">
+            <img src="images/5.png" alt="Lorem ipsum dolor sit amet, Kanap name1">
+            <h3 class="productName">Dépannage Hors Contrat</h3>
+            <p class="productDescription">Loyaux Services vous propose également des services de dépannage d'urgence et sur rendez-vous.</p>
           </article>
         </section>
       </div>
