@@ -106,11 +106,6 @@ a:hover{
 	--footer-text-color: #a6b0b3; 
 	--footer-main-color: #3d424f; 
 	--footer-secondary-color: #2d2f3e;
-	--ods-color-blue-500: hsla(217.7deg,100%,42.2%,1);
-	--ods-color-blue-500-list: 217.7deg,100%,42.2%;
-    --ods-color-blue-600: hsla(225.8deg,100%,37.3%,1);
-    --ods-color-blue-600-list: 225.8deg,100%,37.3%;
-    --ods-color-blue-700: hsla(234.6deg,100%,30.6%,1);
 }
 
 
@@ -496,7 +491,7 @@ i.fa-solid.fa-circle-check {
 }
 
 
-/*Compteur*/
+/*Compteur
 
 .counterup98::after {
   content: counter(count);
@@ -550,7 +545,7 @@ i.fa-solid.fa-circle-check {
   20%, 100% {
     counter-increment: count 0;
   }
-}
+}*/
 
 /*formulaire*/
 
@@ -714,6 +709,76 @@ svg {
 	background-color: var(--secondary-color);
 	color: var(--text-color);
 	margin-bottom: 40px;
+}
+
+/*chiffres*/
+
+.block_block{
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+	align-content: space-around;
+	padding: 0 15px;
+}
+
+.block_chiffres{
+	display: flex;
+    flex-wrap: wrap;
+	width: 60%;
+}
+
+.chiffres {
+    width: 27%;
+	margin-bottom: 100px;
+	padding: 0;
+}
+
+.chiffres i {
+    font-size: 50px;
+}
+
+.chiffres h3 {
+    font-size: 1.6rem;
+}
+
+.chiffres p {
+    font-size: 15px;
+}
+
+
+/*France*/
+
+.france{
+	width: 30%;
+	padding: 0;
+}
+
+.france img{
+	width: 100%;
+}
+
+.france p {
+    font-style: oblique;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.p_france{
+	display: flex;
+    align-items: flex-end;
+}
+
+.p_france i {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.p_france p{
+	text-align: left;
+    margin-left: 10px;
+	font-size: 25px;
 }
 
 /********/
