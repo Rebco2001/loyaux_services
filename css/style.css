@@ -56,7 +56,7 @@ a:hover{
 }
 
 .title p{
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -124,7 +124,6 @@ header{
     background-color: var(--secondary-color);
     z-index: 10;
     color: var(--text-color);
-	padding: 20px 0px;
 }
 
 /*menu*/
@@ -144,8 +143,11 @@ header{
 .limitedWidthBlockMenu{
 	width: 100vw;
     display: flex;
-    justify-content: space-between;
     padding: 0% 2%;
+}
+
+.menu{
+	height: 80px;
 }
 
 
@@ -171,6 +173,7 @@ header{
 	margin-left: 25px;
 	padding: 0px 0px 10px 0px;
 	border-bottom: 2px solid transparent;
+	font-size: 14px;
 }
 .menu nav ul li:hover {
 	border-bottom: 2px solid var(--text-color);
@@ -183,6 +186,12 @@ header li, header p, header a{
 #tel:hover{
 	border: transparent;
 	font-size: 150%;
+}
+
+.tel {
+    position: absolute;
+    right: 50px;
+    height: 10vh;
 }
 
 /*logo*/
@@ -240,13 +249,14 @@ main {
 }
 
 .banniere_text {
-    position: absolute;
+	position: absolute;
     text-align: -webkit-left;
     left: 75px;
     z-index: 0;
     color: var(--secondary-color);
-    width: 60%;
-    bottom: 10px;
+    width: 70%;
+    bottom: 8vh;
+    text-shadow: 2px 2px 10px white;
 }
 
 /*cercle*/
