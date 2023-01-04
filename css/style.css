@@ -266,6 +266,10 @@ main {
     justify-content: space-between;
 }
 
+.id_conteneur p{
+	font-size: 50px;
+}
+
 #conteneur{
     width: 20vw;
     height: 20vw;
@@ -601,41 +605,40 @@ svg {
 
 .plus{
 	height: 40px;
+    display: flex;
     width: 40px;
     position: absolute;
     background-color: white;
     font-size: 30px;
     border-radius: 50%;
     z-index: 100;
+    align-items: center;
+    justify-content: center;
+	border: 2px solid;
 }
 
-#plus1{
-	left: 55%;
-    top: -2%;
+#plus1 {
+    left: 50%;
+    top: 80%;
 }
 
-#plus2{
-	left: 25%;
-    top: -2%;
+#plus2 {
+    left: 23%;
+    top: 80%;
 }
 
-#plus3{
-	left: 80%;
-    top: -2%;
+#plus3 {
+    left: 77%;
+    top: 80%;
 }
 
-#plus4{
-	left: 80%;
-    top: -20%;
-}
-
-#plus3{
-	left: 80%;
-    top: -2%;
+#plus4 {
+    left: 80%;
+    top: 53%;
 }
 
 .plus:hover{
-	background-color: black;
+	background-color: var(--secondary-color);
 	color: white;
 }
 
@@ -851,8 +854,13 @@ footer .footerSecondary {
 		text-align: center;
 	}
 
-	.pack{
+	.pack {
 		min-height: 300px;
+		padding: 10px;
+	}
+
+	.tel {
+		right: 15px;
 	}
 
 	.item{
@@ -871,6 +879,10 @@ footer .footerSecondary {
 @media (max-width: 740px) { 
 	.banniere_text {
 		left: 10px;
+	}
+
+	.tel{
+		position: initial;
 	}
 
 	.topnav{
@@ -989,5 +1001,34 @@ footer .footerSecondary {
 
 	.pack{
 		min-height: 100px;
+	}
+
+	.plus{
+		width: 25px;
+		height: 25px;
+	}
+
+	.block_block{
+		flex-direction: column;
+	}
+
+	.block_chiffres{
+		width: 100%;
+	}
+
+	.chiffres {
+		width: 90%;
+		padding: 10%;
+		margin: 10px;
+		border: 2px solid;
+	}
+
+	.france {
+		width: 90%;
+		padding: 0 10%;
+	}
+
+	.p_france{
+		margin-bottom: 40px;
 	}
 }
