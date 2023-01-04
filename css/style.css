@@ -160,6 +160,7 @@ header{
 
 .menu nav {
 	display: flex;
+	padding-left: 2%;
 }
 
 
