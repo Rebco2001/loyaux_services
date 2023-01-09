@@ -14,12 +14,15 @@ h1 {
 	font-size: 48px;
 	font-weight: 700;
 	text-align: center;
+	width: 90%;
+    margin: 20px auto;
 }
 h2 {
 	font-size: 48px;
 	font-weight: 700;
 	text-align: center;
-	width: 100%;
+	width: 90%;
+    margin: 20px auto;
 }
 
 p{
@@ -68,6 +71,7 @@ a:hover{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-bottom: 10vh;
 }
 
 .marge{
@@ -95,15 +99,15 @@ a:hover{
 
 .limitedWidthBlock {
 	width: 94%;
-	padding: 3%;
+	padding: 0% 3%;
 	background-color: var(--text-color);
 	text-align: center;
 }
 
-#services{
+/*#services{
 	width: 90%;
 	padding: 3% 5%;
-}
+}*/
 
 /*Colors*/
 :root {
@@ -252,6 +256,7 @@ main {
     padding: 0% 10%;
 	background-position: bottom;
 	overflow-x: hidden;
+	margin-bottom: -20px;
 }
 
 .banniere_text {
@@ -612,7 +617,7 @@ svg {
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  padding: 10px;
+  /*padding: 10px;*/
 }
 
 .plus{
@@ -753,7 +758,7 @@ svg {
 
 .chiffres {
     width: 27%;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 	padding: 0;
 }
 
