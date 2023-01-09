@@ -257,7 +257,8 @@ main {
 .banniere_text {
 	text-align: left;
     color: var(--secondary-color);
-    width: 100%;
+    width: 80%;
+	margin: 0% 20% 0% 0%;
 }
 
 /*cercle*/
