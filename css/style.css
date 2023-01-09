@@ -955,16 +955,14 @@ footer .footerSecondary {
 		border-bottom: 2px solid;
 	}
 	
-	.topnav a.icon {
+	.topnav .icon {
 		display: block;
 		position: fixed;
 		color: white;
 		top: 5px;
-		right: 50px;
 		font-size: 40px;
-		width: 30%;
+		width: 85%;
 		text-align: right;
-		margin-right: 20px;
 	}
 	
 	.topnav a:hover{
