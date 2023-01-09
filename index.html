@@ -37,6 +37,17 @@
             }
           </script>
 
+          <script>
+            function myFunction2() {
+              var y = document.getElementById("salleDeBain");
+              if (y.style.display === "block") {
+                y.style.display = "none";
+              } else {
+                y.style.display = "block";
+              }
+            }
+          </script>
+
           <nav>
             <ul>
               <a href="particulier.html"><li>Contrat Particulier</li></a>
@@ -154,6 +165,37 @@
 
 
       <!-- essaie maison-->
+      <article class="bloc" id="salleDeBain">
+        <div class="titre">
+          <img src="images/2.png">
+          <div>
+            <h2>Salles de bain</h2>
+            <p>Exemples de pannes dont un particulier peut se protéger</p>
+          </div>
+        </div>
+        <div class="bloc2">
+            <div class="bloc1">
+                <h3>Les petits tracas pouvant arriver</h3>
+                <div>
+                    <ul>
+                    <li>Une fuite sur votre cumulus</li>
+                    <li>Un engorgement de vos canalisations</li>
+                    <li>Une fuite sur les circuits d’eau</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bloc1">
+                <h3>Notre solution :</h3>
+                <div>
+                    <p>Les services Dépan’Express qui protègent votre installation d’eau : 9,99€TTC par mois</p>
+                    <ul>
+                        <li>De vos canalisations d’eau (dans les limites de votre habitation) jusqu’au raccordement au réseau d’évacuation</li>
+                        <li>En cas de sinistre, vous appelez le numéro dédié de notre partenaire AXA Assistance : un technicien qualifié intervient chez vous en moins de 4 heures !</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
       <div class="limitedWidthBlockContainer white pack">
         <div class="titles">
           <h1 id="nosServices">Exemples de pannes dont un particulier peut se protéger avec Loyaux Services</h1>
@@ -1024,6 +1066,8 @@
           <span class="plus" id="plus2"><p>+</p></span>
           <span class="plus" id="plus3"><p>+</p></span>
           <span class="plus" id="plus4"><p>+</p></span>
+          <a href="javascript:void(0);" onclick="myFunction2()" class="plus" id="plus5"><p>+</p></a>
+
         </div>
 
       </div>
