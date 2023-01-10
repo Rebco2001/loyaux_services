@@ -844,17 +844,28 @@ svg {
 }
 
 /*depannage*/
-#depannage{
+#salleDeBain{
+	display: none;
+}
+
+#salon{
+	display: none;
+}
+
+#cuisine{
+	display: none;
+}
+
+#buanderie{
+	display: none;
+}
+
+.piece{
 	height: 130vh;
 	width: 100vw;
 	align-items: center;
 	justify-content: center;
-	display: none;
 	position: absolute;
-}
-
-#salleDeBain{
-	display: flex;
 }
 
 #fermeture{
@@ -925,7 +936,7 @@ margin-bottom: 20px;
 
 .titre img{
 	width: 200px;
-	height: 150px;
+	height: 200px;
 	order: -1;
 	margin-right: 50px;
 	flex: 0 0 205px;

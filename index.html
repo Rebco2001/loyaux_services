@@ -39,7 +39,34 @@
 
           <script>
             function myFunction2() {
-              var y = document.getElementById("depannage");
+              var y = document.getElementById("salleDeBain");
+              if (y.style.display === "flex") {
+                y.style.display = "none";
+              } else {
+                y.style.display = "flex";
+              }
+            }
+
+            function myFunction4() {
+              var y = document.getElementById("salon");
+              if (y.style.display === "flex") {
+                y.style.display = "none";
+              } else {
+                y.style.display = "flex";
+              }
+            }
+
+            function myFunction6() {
+              var y = document.getElementById("buanderie");
+              if (y.style.display === "flex") {
+                y.style.display = "none";
+              } else {
+                y.style.display = "flex";
+              }
+            }
+
+            function myFunction8() {
+              var y = document.getElementById("cuisine");
               if (y.style.display === "flex") {
                 y.style.display = "none";
               } else {
@@ -50,7 +77,33 @@
 
         <script>
           function myFunction3() {
-            var y = document.getElementById("depannage");
+            var y = document.getElementById("salleDeBain");
+            if (y.style.display === "none") {
+              y.style.display = "block";
+            } else {
+              y.style.display = "none";
+            }
+          }
+          function myFunction5() {
+            var y = document.getElementById("salon");
+            if (y.style.display === "none") {
+              y.style.display = "block";
+            } else {
+              y.style.display = "none";
+            }
+          }
+
+          function myFunction7() {
+            var y = document.getElementById("cuisine");
+            if (y.style.display === "none") {
+              y.style.display = "block";
+            } else {
+              y.style.display = "none";
+            }
+          }
+
+          function myFunction9() {
+            var y = document.getElementById("buanderie");
             if (y.style.display === "none") {
               y.style.display = "block";
             } else {
@@ -176,11 +229,11 @@
 
 
       <!-- essaie maison-->
-      <section id="depannage">
-        <article class="bloc" id="salleDeBain">
+      <section class="piece" id="salleDeBain">
+        <article class="bloc">
           <a href="javascript:void(0);" onclick="myFunction3()" id="fermeture"><i class="fa-regular fa-circle-xmark"></i></a>
           <div class="titre">
-            <img src="images/2.png">
+            <img src="images/salleDeBain.png">
             <div>
               <h2>Salles de bain</h2>
               <p>Exemples de pannes dont un particulier peut se protéger</p>
@@ -200,16 +253,122 @@
               <div class="bloc1">
                   <h3>Notre solution :</h3>
                   <div>
-                      <p>Les services Dépan’Express qui protègent votre installation d’eau : 9,99€TTC par mois</p>
+                      <p>Votre contrat Loyaux Services protège votre installation d’eau: 29.99 / mois TTC par mois</p>
                       <ul>
                           <li>De vos canalisations d’eau (dans les limites de votre habitation) jusqu’au raccordement au réseau d’évacuation</li>
-                          <li>En cas de sinistre, vous appelez le numéro dédié de notre partenaire AXA Assistance : un technicien qualifié intervient chez vous en moins de 4 heures !</li>
+                          <li>En cas de sinistre, vous appelez le numéro dédié: un technicien qualifié intervient chez vous en moins de 2 heures !</li>
                       </ul>
                   </div>
               </div>
           </div>
         </article>
       </section>
+
+      <section class="piece" id="salon">
+        <article class="bloc">
+          <a href="javascript:void(0);" onclick="myFunction5()" id="fermeture"><i class="fa-regular fa-circle-xmark"></i></a>
+          <div class="titre">
+            <img src="images/salon.png">
+            <div>
+              <h2>Salon</h2>
+              <p>Exemples de pannes dont un particulier peut se protéger</p>
+            </div>
+          </div>
+          <div class="bloc2">
+              <div class="bloc1">
+                  <h3>Les petits tracas pouvant arriver</h3>
+                  <div>
+                      <ul>
+                      <li>Des clés brisés dans la serrure sur votre porte d’entrée</li>
+                      <li>La perte ou le vol de vos clés ou  une porte claquée</li>
+                      <li>Le blocage des systèmes de serrure ou une tentative d’effraction</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="bloc1">
+                  <h3>Notre solution :</h3>
+                  <div>
+                      <p>Votre contrat Loyaux Services protège vos éléments de serrurerie: 29.99 / mois TTC par mois</p>
+                      <ul>
+                          <li>En cas  d’incident, vous appelez le numéro dédié: un technicien qualifié intervient chez vous en moins de 2 heures !</li>
+                          <li>Une fois le bon fonctionnement de l’élément rétabli, le technicien sécurise votre domicile</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="piece" id="cuisine">
+        <article class="bloc">
+          <a href="javascript:void(0);" onclick="myFunction7()" id="fermeture"><i class="fa-regular fa-circle-xmark"></i></a>
+          <div class="titre">
+            <img src="images/cuisine.png">
+            <div>
+              <h2>Cuisine</h2>
+              <p>Exemples de pannes dont un particulier peut se protéger</p>
+            </div>
+          </div>
+          <div class="bloc2">
+              <div class="bloc1">
+                  <h3>Les petits tracas pouvant arriver</h3>
+                  <div>
+                      <ul>
+                      <li>Un robinet d’arrêt cassé</li>
+                      <li>Un joint de canalisation défectueux</li>
+                      <li>Un flexible de gaz abîmé</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="bloc1">
+                  <h3>Notre solution :</h3>
+                  <div>
+                      <p>Votre contrat Loyaux Services protège votre installation de gaz naturel: 29.99 / mois TTC par mois</p>
+                      <ul>
+                          <li>En cas de sinistre, vous appelez le numéro dédié: un technicien qualifié intervient chez vous en moins de 2 heures !</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="piece" id="buanderie">
+        <article class="bloc">
+          <a href="javascript:void(0);" onclick="myFunction9()" id="fermeture"><i class="fa-regular fa-circle-xmark"></i></a>
+          <div class="titre">
+            <img src="images/buanderie.png">
+            <div>
+              <h2>Buanderie</h2>
+              <p>Exemples de pannes dont un particulier peut se protéger</p>
+            </div>
+          </div>
+          <div class="bloc2">
+              <div class="bloc1">
+                  <h3>Les petits tracas pouvant arriver</h3>
+                  <div>
+                      <ul>
+                      <li>Un problème sur votre disjoncteur</li>
+                      <li>Un fusible abîmé</li>
+                      <li>Des problèmes de surtension</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="bloc1">
+                  <h3>Notre solution :</h3>
+                  <div>
+                      <p>Votre contrat Loyaux Services protège votre installation électrique: 29.99 / mois TTC par mois</p>
+                      <ul>
+                          <li>Vous déclarez votre sinistre afin d’être pris en charge</li>
+                          <li>Un technicien qualifié intervient chez vous en moins de 2 heures afin de réparer l’élément</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        </article>
+      </section>
+
+      
       
       <div class="limitedWidthBlockContainer white pack">
         <div class="titles">
@@ -1079,7 +1238,9 @@
           </svg>
           <span class="plus" id="plus1"><p>+</p></span>
           <span class="plus" id="plus2"><p>+</p></span>
-          <span class="plus" id="plus3"><p>+</p></span>
+          <a href="javascript:void(0);" onclick="myFunction8()" class="plus" id="plus1"><p>+</p></a>
+          <a href="javascript:void(0);" onclick="myFunction6()" class="plus" id="plus2"><p>+</p></a>
+          <a href="javascript:void(0);" onclick="myFunction4()" class="plus" id="plus3"><p>+</p></a>
           <a href="javascript:void(0);" onclick="myFunction2()" class="plus" id="plus4"><p>+</p></a>
 
         </div>
