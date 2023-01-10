@@ -1081,6 +1081,7 @@ footer .footerSecondary {
 
 	.block_block{
 		flex-direction: column;
+		align-items: stretch;
 	}
 
 	.block_chiffres{
