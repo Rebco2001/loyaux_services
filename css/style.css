@@ -1003,6 +1003,14 @@ footer .footerSecondary {
 }
 
 @media (max-width: 740px) { 
+	html,body  
+	{  
+	overflow-x:hidden;  
+	}  
+
+	main{
+		overflow-x: hidden;
+	}
 	.title p{
 		font-size: 1.8rem;
 	}
