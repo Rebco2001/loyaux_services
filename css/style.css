@@ -1169,4 +1169,19 @@ footer .footerSecondary {
 	.presentation{
 		width: 80%;
 	}
+
+	.titre{
+		padding: 0;
+		flex-wrap: wrap;
+	}
+
+	.bloc {
+		max-height: calc(100vh - 100px);
+		max-width: calc(100vw - 100px);
+	}
+
+	.titre div p{
+		margin-bottom: 0px;
+		font-size: 1.3rem;
+	}
 }
