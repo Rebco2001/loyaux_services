@@ -817,8 +817,25 @@ svg {
 }
 
 /*depannage*/
-#salleDeBain{
+#depannage{
+	height: 130vh;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
 	display: none;
+	position: absolute;
+}
+
+#salleDeBain{
+	display: flex;
+}
+
+#fermeture{
+	text-align: end;
+}
+
+#fermeture:hover{
+	font-size: 150%;
 }
 
 .bloc {
@@ -826,11 +843,8 @@ svg {
     max-width: calc(80vw - 100px);
     display: flex;
     flex-direction: column;
-    background-color: #fff;
     border: 2px solid;
-    margin: calc(20vh - 10px);
     background-color: white;
-    position: absolute;
     z-index: 100;
 }
 
