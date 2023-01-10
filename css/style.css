@@ -162,6 +162,7 @@ header{
 	display: flex;
 	align-items: center;
 	text-decoration: none;
+	height: 80px;
 }
 
 
@@ -201,7 +202,6 @@ header li, header p, header a{
 .tel {
     position: absolute;
     right: 50px;
-    height: 10vh;
 }
 
 /*logo*/
@@ -757,6 +757,32 @@ svg {
 	text-align: justify;
 }
 
+.presentation h3{
+	margin: 0px;
+}
+
+.rond {
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+	margin-right: 20px;
+}
+
+.rond_texte{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rond p{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+}
 .chiffres {
     width: 27%;
 	margin-bottom: 20px;
@@ -1177,6 +1203,7 @@ footer .footerSecondary {
 
 	.presentation{
 		width: 80%;
+		margin-bottom: 40px;
 	}
 
 	.titre{
