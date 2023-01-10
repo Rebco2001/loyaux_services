@@ -739,7 +739,7 @@ svg {
     flex-direction: row;
 	align-content: space-around;
 	padding: 0 15px;
-	align-items: center;
+	align-items: stretch;
 }
 
 .block_chiffres{
@@ -1081,7 +1081,6 @@ footer .footerSecondary {
 
 	.block_block{
 		flex-direction: column;
-		align-items: stretch;
 	}
 
 	.block_chiffres{
