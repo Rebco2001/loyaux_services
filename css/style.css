@@ -150,6 +150,7 @@ header{
 	width: 100vw;
     display: flex;
     padding: 0% 2%;
+	align-items: center;
 }
 
 .menu{
@@ -1060,9 +1061,9 @@ footer .footerSecondary {
 		display: block;
 		position: fixed;
 		color: white;
-		top: 5px;
+		top: 1.5vh;
 		font-size: 40px;
-		width: 85%;
+		width: 95%;
 		text-align: right;
 	}
 	
