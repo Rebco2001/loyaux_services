@@ -76,11 +76,10 @@ a:hover{
 	margin-bottom: 10vh;
 }
 
-.marge{
-	margin: 0% 5vw;
-	width: 90vw;
-	position: relative;
-	top: -15px;
+.marge {
+    width: 100vw;
+    position: relative;
+    top: -15px;
 }
 
 /*.arrondi{
@@ -100,10 +99,10 @@ a:hover{
 }
 
 .limitedWidthBlock {
-	width: 94%;
-	padding: 0% 3%;
-	background-color: var(--text-color);
-	text-align: center;
+	width: 90%;
+    padding: 0% 4.2%;
+    background-color: var(--text-color);
+    text-align: center;
 }
 
 /*#services{
