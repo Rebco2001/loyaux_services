@@ -16,6 +16,7 @@ h1 {
 	text-align: center;
 	width: 90%;
     margin: 20px auto;
+	margin-bottom: 70px;
 }
 h2 {
 	font-size: 48px;
@@ -23,6 +24,7 @@ h2 {
 	text-align: center;
 	width: 90%;
     margin: 20px auto;
+	margin-bottom: 70px;
 }
 
 p{
@@ -693,7 +695,7 @@ svg {
     flex-wrap: wrap;
 	width: 30%;
 	align-content: space-between;
-	text-align: justify;
+	text-align: left;
 }
 
 .presentation h3{
@@ -716,9 +718,11 @@ svg {
 	display: flex;
     flex-direction: column;
     justify-content: center;
+	height: 60px;
+    justify-content: center;
 }
 
-.rond p{
+.contract .rond p{
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 15px;
 }
@@ -823,6 +827,10 @@ svg {
     border: 2px solid;
     background-color: white;
     z-index: 100;
+}
+
+.bloc p {
+    font-size: 1rem;
 }
 
 .bloc, .bloc2{
@@ -957,7 +965,7 @@ margin-bottom: 20px;
     max-width: 550px;
 }
 
-.rond {
+.contract .rond {
     background-color: #007acd;
     border-radius: 50px;
     width: 40px;
@@ -971,7 +979,7 @@ margin-bottom: 20px;
     box-shadow: 3px 1px 0 0 #007acd;
 }
 
-.rond p {
+.contract .rond p {
 	color: var(--text-color);
 }
 
