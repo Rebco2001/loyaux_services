@@ -552,6 +552,20 @@ form.cart__order__form {
     width: 60%;
 }
 
+.cart__order__form__submit input{
+	cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.125s linear;
+    border-collapse: separate;
+    color: #fff;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    padding: 9px 48px;
+}
+
 
 /*maison*/
 
@@ -1307,6 +1321,15 @@ footer .footerSecondary {
 
 	#description{
 		min-width: 60%;
+	}
+
+	.infos, .formulaire {
+		width: 80%;
+		margin: auto;
+	}
+
+	form.cart__order__form {
+		width: 90%;
 	}
 }
 
