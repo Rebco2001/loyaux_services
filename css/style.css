@@ -1036,6 +1036,12 @@ margin-bottom: 20px;
     font-size: 1em;
 }
 
+.contact h3 {
+    border-bottom: 6px solid var(--secondary-color) !important;
+    padding-bottom: 8px !important;
+    width: fit-content;
+}
+
 .formulaire{
 	width: 60%;
 }
