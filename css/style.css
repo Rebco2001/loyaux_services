@@ -215,6 +215,8 @@ header li, header p, header a{
 	display: flex;
 	align-items:center ;
 	font-family: 'Times New Roman', Times, serif;
+	position: relative;
+	z-index: 10000;
 }
 
 .logo p{
