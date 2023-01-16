@@ -958,11 +958,6 @@ margin-bottom: 20px;
 	padding: 0px 20px;
 }
 
-.process{
-	margin: 0% auto;
-    /**/
-}
-
 .bloc_texte{
 	width: 50%;
     max-width: 550px;
@@ -990,14 +985,19 @@ margin-bottom: 20px;
 	align-items: flex-end;
 }
 
-.contract .limitedWidthBlockContainer{
+.process{
 	flex-direction: row;
 	align-items: flex-end;
+	margin: 0% auto;
 }
 
 .contract img{
 	width: 300px;
     height: 300px;
+}
+
+.contract h1{
+	margin: 20px auto;
 }
 
 /*#description:before {
