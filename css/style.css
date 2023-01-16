@@ -1269,6 +1269,7 @@ footer .footerSecondary {
 	.block_chiffres{
 		width: 100%;
 		padding: 0px;
+		margin: auto;
 	}
 
 	.chiffres {
