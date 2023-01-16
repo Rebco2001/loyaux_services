@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Loyaux Service-Electicite</title>
+    <title>Loyaux Service</title>
 
     <meta charset="utf-8">
     <meta name="title" content="ELECTRISIEN PARIS | UN SERVICE DE PROXIMITE">
     <meta name="description" content="Notre electricien effectue une visite chez vous pour évaluer la situation, afin d'établir avec vous un devis détaillé. ">
     <link rel="icon" type="image/png" sizes="16x16" href="">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
     <link href="css/style.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a0632bfd7d.js" crossorigin="anonymous"></script>
 
@@ -18,99 +18,208 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <body>
-    <header>
-      <div class="limitedWidthBlockContainer menu">
-        <div class="limitedWidthBlock">
-          <a href="index.html">
-            <div class="logo"><p>Loyaux<br><span class="sous_h1">Services</span></p></div>
+    <body>
+      <header>
+        <div class="limitedWidthBlockContainerMenu menu">
+          <div class="limitedWidthBlockMenu menu">
+            <a href="index.html">
+              <div class="logo"><p>Loyaux<br><span class="sous_h1">services</span></p></div>
+            </a>
+        
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+              }
+            </script>
+  
+            <script>
+              function myFunction2() {
+                var y = document.getElementById("salleDeBain");
+                if (y.style.display === "flex") {
+                  y.style.display = "none";
+                } else {
+                  y.style.display = "flex";
+                }
+              }
+  
+              function myFunction4() {
+                var y = document.getElementById("salon");
+                if (y.style.display === "flex") {
+                  y.style.display = "none";
+                } else {
+                  y.style.display = "flex";
+                }
+              }
+  
+              function myFunction6() {
+                var y = document.getElementById("buanderie");
+                if (y.style.display === "flex") {
+                  y.style.display = "none";
+                } else {
+                  y.style.display = "flex";
+                }
+              }
+  
+              function myFunction8() {
+                var y = document.getElementById("cuisine");
+                if (y.style.display === "flex") {
+                  y.style.display = "none";
+                } else {
+                  y.style.display = "flex";
+                }
+              }
+            </script>
+  
+          <script>
+            function myFunction3() {
+              var y = document.getElementById("salleDeBain");
+              if (y.style.display === "none") {
+                y.style.display = "block";
+              } else {
+                y.style.display = "none";
+              }
+            }
+            function myFunction5() {
+              var y = document.getElementById("salon");
+              if (y.style.display === "none") {
+                y.style.display = "block";
+              } else {
+                y.style.display = "none";
+              }
+            }
+  
+            function myFunction7() {
+              var y = document.getElementById("cuisine");
+              if (y.style.display === "none") {
+                y.style.display = "block";
+              } else {
+                y.style.display = "none";
+              }
+            }
+  
+            function myFunction9() {
+              var y = document.getElementById("buanderie");
+              if (y.style.display === "none") {
+                y.style.display = "block";
+              } else {
+                y.style.display = "none";
+              }
+            }
+          </script>
+  
+            <nav>
+              <ul>
+                <a href="particulier.html"><li>Contrat Particulier</li></a>
+                <a href="profesionnel.html"><li>Contrat Professionnel</li></a>
+                <a href="gestionnaire.html"><li>Contrat Gestionnaire</li></a>
+                <a href="gestionnaire.html"><li>Dépannages Hors Contrat</li></a>
+                <a href="contact.html"><li>Nous Contacter</li></a>
+              </ul>
+            </nav>
+  
+            <a href="tel:+33186163042" class="tel"><li id="tel"><i class="fa-solid fa-phone"></i></li></a>
+          </div>
+        </div>
+        <div class="topnav">
+          <div id="myLinks">
+            <a href="particulier.html"><li>Contrat Particulier</li></a>
+            <a href="profesionnel.html"><li>Contrat Professionnel</li></a>
+            <a href="gestionnaire.html"><li>Contrat Gestionnaire</li></a>
+            <a href="gestionnaire.html"><li>Dépannages Hors Contrat</li></a>
+            <a href="contact.html"><li>Nous Contacter</li></a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="border: transparent;">
+            <i class="fa fa-bars"></i>
           </a>
-
-          <nav>
-            <ul>
-              <a href="index.html"><li>Accueil</li></a>
-              <a href="tarif.html"><li>Nos tarifs</li></a>
-              <a href="tel:+33186163042"><li>01.86.16.30.42</li></a>
-            </ul>
-          </nav>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <main class="limitedWidthBlockContainer">
-      <div class="limitedWidthBlock blue">
-        <h1>NOUS CONTACTER</h1>
-        <div class="items">
-          <form method="get" class="cart__order__form">
-            <div class="cart__order__form__question">
-              <label for="firstName">Prénom: </label>
-              <input type="text" name="firstName" id="firstName" required>
-              <p id="firstNameErrorMsg"></p>
-            </div>
-            <div class="cart__order__form__question">
-              <label for="lastName">Nom: </label>
-              <input type="text" name="lastName" id="lastName" required>
-              <p id="lastNameErrorMsg"></p>
-            </div>
-            <div class="cart__order__form__question">
-              <label for="address">Adresse: </label>
-              <input type="text" name="address" id="address" required>
-              <p id="addressErrorMsg"></p>
-            </div>
-            <div class="cart__order__form__question">
-              <label for="city">Ville: </label>
-              <input type="text" name="city" id="city" required>
-              <p id="cityErrorMsg"></p>
-            </div>
-            <div class="cart__order__form__question">
-              <label for="email">Email: </label>
-              <input type="email" name="email" id="email" required>
-              <p id="emailErrorMsg"></p>
-            </div>
-            <div class="cart__order__form__question">
-              <label for="object">Message: </label>
-              <textarea type="text" name="object" id="object" required></textarea>
-            </div>
-            <div class="cart__order__form__submit">
-              <input type="submit" value="ENVOYER" id="order">
-            </div>
-            
-          </form>
-        </div>
-      </div>
-
-      <div class="limitedWidthBlock">
-        <section class="items fin">
-          <p>Disponible 24h/24 - 7J /7</p>
-          <a href="tel:+33189163042"><button>01 89 16 30 42</button></a>
-          <p>Contactez nous pour une intervention express ou pour une prise de RDV sur Paris</p>
-        </section>
-      </div>
-    </main>
-
-    <footer>
-      <div class="limitedWidthBlockContainer footerMain">
-        <div class="limitedWidthBlock">
-          <div>
-            <p>LOYAUX SERVICES</p>
-          </div>
-          <div>
-            <p></p>
-          </div>
-          <div>
-            <p>Téléphone : 01 86 16 30 42</p>
-          </div>
-          <div>
-            <p>Email : doronmimoun@gmail.com</p>
+      <main class="contract contact">
+        <div class="limitedWidthBlockContainer sous_contract contact_img">
+          <div class="particulier_texte">
+            <h1>Nous contacter</h1>
           </div>
         </div>
-      </div>
-      <div class="limitedWidthBlockContainer footerSecondary">
-        <div class="limitedWidthBlock">
-          <p>© Copyright 2022 - 2042 | LOYAUX SERVICES | All Rights Reserved | Powered by Rebecca ILLOUZ</p>
-        </div>
-      </div>
-    </footer>
 
-  </body>
+        <!--<div class="sous_contact">
+          <h2>Contactez-nous</h2>
+          <P>Une équipe d'experts à votre service</P>
+        </div>-->
+
+        <div class="limitedWidthBlockContainer items">
+          <div class="infos">
+            <h3>Loyaux Services</h3>
+            <p> 53 rue Saint-Didier<br>75116 Paris<br>France</p>
+            <p>0186163042</p>
+          </div>
+          <div class="formulaire">
+            <h3>Nous envoyer un message</h3>
+            <form method="get" class="cart__order__form">
+              <div class="cart__order__form__question">
+                <label for="firstName">Prénom: </label>
+                <input type="text" name="firstName" id="firstName" required>
+                <p id="firstNameErrorMsg"></p>
+              </div>
+              <div class="cart__order__form__question">
+                <label for="lastName">Nom: </label>
+                <input type="text" name="lastName" id="lastName" required>
+                <p id="lastNameErrorMsg"></p>
+              </div>
+              <div class="cart__order__form__question">
+                <label for="address">Adresse: </label>
+                <input type="text" name="address" id="address" required>
+                <p id="addressErrorMsg"></p>
+              </div>
+              <div class="cart__order__form__question">
+                <label for="city">Ville: </label>
+                <input type="text" name="city" id="city" required>
+                <p id="cityErrorMsg"></p>
+              </div>
+              <div class="cart__order__form__question">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+                <p id="emailErrorMsg"></p>
+              </div>
+              <div class="cart__order__form__question">
+                <label for="object">Message: </label>
+                <textarea type="text" name="object" id="object" required></textarea>
+              </div>
+              <div class="cart__order__form__submit">
+                <input type="submit" value="ENVOYER" id="order">
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class=" footerMain">
+          <div class="footer_sous">
+            <div>
+              <p>Loyaux Services</p>
+            </div>
+            <div>
+              <p></p>
+            </div>
+            <div>
+              <p>Téléphone : 01 86 16 30 42</p>
+            </div>
+          </div>
+        </div>
+        <div class="footerSecondary">
+          <div class="footer_sous-div">
+            <p>© Copyright 2022 - 2042 | Loyaux Services | All Rights Reserved</p>
+          </div>
+        </div>
+      </footer>
+
+    </body>
 </html>
+
+
