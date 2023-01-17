@@ -891,7 +891,7 @@ margin-bottom: 20px;
 }
 
 .bloc h2{
-	color: #007acd;
+	color: var(--secondary-color);
 	text-align: left;
 	margin: 20px 0px;
 }
@@ -989,7 +989,7 @@ margin-bottom: 20px;
 }
 
 .contract .rond {
-    background-color: #007acd;
+    background-color: var(--secondary-color);
     border-radius: 50px;
     width: 40px;
     height: 40px;
@@ -999,7 +999,7 @@ margin-bottom: 20px;
     top: -10px;
     position: relative;
     border: 2px solid #fff;
-    box-shadow: 3px 1px 0 0 #007acd;
+    box-shadow: 3px 1px 0 0 ;
 }
 
 .contract .rond p {
@@ -1083,14 +1083,14 @@ margin-bottom: 20px;
 	font-weight: 700;
 	color: #fff;
 	line-height: 1;
-	box-shadow: 3px 1px 0 0 #007acd;
+	box-shadow: 3px 1px 0 0 var(--secondary-color);
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-color: #007acd;
+	background-color: var;
 }*/
 /********/
 /*Footer*/
