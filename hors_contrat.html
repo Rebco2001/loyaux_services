@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Loyaux Service | Particulier</title>
+    <title>Loyaux Service</title>
 
     <meta charset="utf-8">
     <meta name="title" content="ELECTRISIEN PARIS | UN SERVICE DE PROXIMITE">
     <meta name="description" content="Notre electricien effectue une visite chez vous pour évaluer la situation, afin d'établir avec vous un devis détaillé. ">
     <link rel="icon" type="image/png" sizes="16x16" href="">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
     <link href="css/style.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a0632bfd7d.js" crossorigin="anonymous"></script>
 
@@ -19,76 +19,204 @@
   </head>
 
     <body>
-        <header>
+      <header>
         <div class="limitedWidthBlockContainerMenu menu">
-            <div class="limitedWidthBlockMenu menu">
+          <div class="limitedWidthBlockMenu menu">
             <a href="index.html">
-                <div class="logo"><p>Loyaux<br><span class="sous_h1">Services</span></p></div>
+              <div class="logo"><p>Loyaux<br><span class="sous_h1">services</span></p></div>
             </a>
-
+        
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+              }
+            </script>
+  
+            <script>
+              function myFunction2() {
+                var y = document.getElementById("salleDeBain");
+                if (y.style.display === "flex") {
+                  y.style.display = "none";
+                } else {
+                  y.style.display = "flex";
+                }
+              }
+  
+              function myFunction4() {
+                var y = document.getElementById("salon");
+                if (y.style.display === "flex") {
+                  y.style.display = "none";
+                } else {
+                  y.style.display = "flex";
+                }
+              }
+  
+              function myFunction6() {
+                var y = document.getElementById("buanderie");
+                if (y.style.display === "flex") {
+                  y.style.display = "none";
+                } else {
+                  y.style.display = "flex";
+                }
+              }
+  
+              function myFunction8() {
+                var y = document.getElementById("cuisine");
+                if (y.style.display === "flex") {
+                  y.style.display = "none";
+                } else {
+                  y.style.display = "flex";
+                }
+              }
+            </script>
+  
+          <script>
+            function myFunction3() {
+              var y = document.getElementById("salleDeBain");
+              if (y.style.display === "none") {
+                y.style.display = "block";
+              } else {
+                y.style.display = "none";
+              }
+            }
+            function myFunction5() {
+              var y = document.getElementById("salon");
+              if (y.style.display === "none") {
+                y.style.display = "block";
+              } else {
+                y.style.display = "none";
+              }
+            }
+  
+            function myFunction7() {
+              var y = document.getElementById("cuisine");
+              if (y.style.display === "none") {
+                y.style.display = "block";
+              } else {
+                y.style.display = "none";
+              }
+            }
+  
+            function myFunction9() {
+              var y = document.getElementById("buanderie");
+              if (y.style.display === "none") {
+                y.style.display = "block";
+              } else {
+                y.style.display = "none";
+              }
+            }
+          </script>
+  
             <nav>
-                <ul>
-                <a href="particulier.html"><li>Particulier</li></a>
-                <a href="profesionnel.html"><li>Professionnel</li></a>
-                <a href="gestionnaire.html"><li>Gestionnaire</li></a>
-                </ul>
+              <ul>
+                <a href="particulier.html"><li>Contrat Particulier</li></a>
+                <a href="profesionnel.html"><li>Contrat Professionnel</li></a>
+                <a href="gestionnaire.html"><li>Contrat Gestionnaire</li></a>
+                <a href="hors_contrat.html"><li>Dépannages Hors Contrat</li></a>
+                <a href="contact.html"><li>Nous Contacter</li></a>
+              </ul>
             </nav>
-
-            <a href="tel:+33186163042">01.86.16.30.42</a>
-            </div>
+  
+            <a href="tel:+33186163042" class="tel"><li id="tel"><i class="fa-solid fa-phone"></i></li></a>
+          </div>
         </div>
-        </header>
+        <div class="topnav">
+          <div id="myLinks">
+            <a href="particulier.html"><li>Contrat Particulier</li></a>
+            <a href="profesionnel.html"><li>Contrat Professionnel</li></a>
+            <a href="gestionnaire.html"><li>Contrat Gestionnaire</li></a>
+            <a href="hors_contrat.html"><li>Dépannages Hors Contrat</li></a>
+            <a href="contact.html"><li>Nous Contacter</li></a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="border: transparent;">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
 
-        <main class="limitedWidthBlockContainer degrade">
-            <div class="limitedWidthBlock centre degrade">
-                <section class="item">
-                    <article>
-                        <div class="item__img arrondi">
-                            <img class="arrondi" src="images/4.png">
-                        </div>
-                        <div class="item__content">
-                            <div class="item__content__titlePrice">
-                                <h1 id="title">Gestionnaire de biens</h1>
-                            </div>
-                            <div class="item__content__description">
-                                <p id="description">
-                                    1/ Loyaux Services met à votre disposition une assistance téléphonique 24 heures sur 24 pour vous assister dans l’identification des problèmes et l’orientation des interventions.<br><br><br>
-                                    2/ Loyaux Services s’engage à répondre aux demandes d’assistance dans un délai maximum de 2 heures pour les interventions d’urgence et dans un délai maximum de 48 heures pour les prises de rendez-vous.<br><br><br>
-                                    3/ Votre Contrat est conclu pour une durée de 3 années entières et consécutives.<br><br><br>
-                                    4/ Les forfaits de déplacements sont pris en charge par Loyaux Services dans la limite de 12 déplacements par année. Au-delà, chaque déplacement est pris en charge par le Client pour un montant de 25€ hors taxes.<br><br><br>
-                                    5/ Pour les pièces non prises en charge par votre Contrat, elles vous seront refacturés à prix coutant.<br><br><br>
-                                    6/ La zone d’intervention des déplacements est limitée à l’Île-de-France.<br><br><br>
-                                </p>
-                            </div>
-                        </div>
-                    </article>
-                </section>
+      <main class="contract">
+        <div class="limitedWidthBlockContainer sous_contract hors_contrat">
+          <div class="particulier_texte">
+            <h1>Dépannages Hors Contrat</h1>
+          </div>
+        </div>
+
+        <div class="limitedWidthBlockContainer process">
+          <img src="images/tel.svg">
+          <div class="bloc_texte">
+            <h2>Loyaux Services, à vos cotés même sans contrat!</h2>
+            <div class="item__content__description">
+              <div class="item_rond" style="border-left-color: var(--secondary-color)">
+                <div class="rond"><p>1</p></div> 
+              </div>
+              <p id="description">
+                Une catastrophe a eu lieu chez vous et vous voilà les pieds dans l'eau, sans lumière, sans chauffage ou face à votre porte.
+                Vous ne savez pas vers qui vous tourner ? À qui faire confiance ?
+              </p>
             </div>
-        </main>
 
-        <footer>
-          <div class=" footerMain">
-            <div class="footer_sous">
-              <div>
-                <p>LOYAUX SERVICES</p>
+            <div class="item__content__description">
+              <div class="item_rond">
+                <div class="rond"><p>2</p></div> 
               </div>
-              <div>
-                <p></p>
-              </div>
-              <div>
-                <p>Téléphone : 01 86 16 30 42</p>
-              </div>
-              <div>
-                <p>Email : loyaux_services@gmail.com</p>
-              </div>
+              <p id="description">
+                Loyaux Services vous propose une solution simple et efficace, 1 seul numéro, 4 services de dépannage.
+                Intervention 7j/7 et 24h/24.
+              </p>
             </div>
           </div>
-          <div class="footerSecondary">
-            <div class="footer_sous-div">
-              <p>© Copyright 2022 - 2042 | LOYAUX SERVICES | All Rights Reserved</p>
+          <img src="images/standard.svg">
+      </div>
+
+      <div class="limitedWidthBlockContainer white" id="services">
+        <section class="items" id="items"> 
+          <a href="https://loyaux-services.fr"><article class="degrade">
+            <img src="images/8.png" alt="Lorem ipsum dolor sit amet, Kanap name1" style="max-width: 100%;">
+            <h3 class="productName">Service Serrurerie</h3>
+          </article></a>
+
+          <a href="https://loyaux-services.fr/electricite"><article class="degrade">
+            <img src="images/9.png" alt="Lorem ipsum dolor sit amet, Kanap name1" style="max-width: 100%;">
+            <h3 class="productName">Service Electricité</h3>
+          </article></a>
+
+          <a href="#"><article class="degrade">
+            <img src="images/10.png" alt="Lorem ipsum dolor sit amet, Kanap name1" style="max-width: 100%;">
+            <h3 class="productName">Service Plomberie</h3>
+          </article></a>
+
+          <a href="#"><article class="degrade">
+            <img src="images/11.png" alt="Lorem ipsum dolor sit amet, Kanap name1" style="max-width: 100%;">
+            <h3 class="productName">Service Vitrerie</h3>
+          </article></a>
+        </section>
+    </main>
+
+      <footer>
+        <div class=" footerMain">
+          <div class="footer_sous">
+            <div>
+              <p>Loyaux Services</p>
+            </div>
+            <div>
+              <p></p>
+            </div>
+            <div>
+              <p>Téléphone : 01 86 16 30 42</p>
             </div>
           </div>
-        </footer>
+        </div>
+        <div class="footerSecondary">
+          <div class="footer_sous-div">
+            <p>© Copyright 2022 - 2042 | Loyaux Services | All Rights Reserved</p>
+          </div>
+        </div>
+      </footer>
 
     </body>
 </html>
