@@ -195,16 +195,6 @@ header li, header p, header a{
 	color: var(--text-color);
 }
 
-#tel:hover{
-	border: transparent;
-	font-size: 150%;
-}
-
-.tel {
-    position: absolute;
-    right: 50px;
-}
-
 /*logo*/
 
 .logo {
@@ -1022,7 +1012,7 @@ margin-bottom: 20px;
 }
 
 .contract .process{
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 
 .process img{
@@ -1192,13 +1182,9 @@ footer .footerSecondary {
 		font-size: 12px;
 		width: 100px;
 	}
-
-	#tel{
-		display: none;
-	}
 }
 
-@media (max-width: 740px) { 
+@media (max-width: 770px) { 
 	html,body  
 	{  
 	overflow-x:hidden;  
@@ -1308,7 +1294,6 @@ footer .footerSecondary {
 
 	.sous_conteneur {
 	    width: 90%;
-		margin-bottom: 5vh;
 	}
 
 	.cercle{
