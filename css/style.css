@@ -958,6 +958,12 @@ margin-bottom: 20px;
 	text-align: left;
 }
 
+.particulier_texte p{
+	color: white;
+    margin: 20px auto;
+    width: 90%;
+}
+
 #description {
     text-align: left;
     line-height: 120%;
