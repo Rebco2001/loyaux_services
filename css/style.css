@@ -958,6 +958,59 @@ margin-bottom: 20px;
 	text-align: left;
 }
 
+.particulier_texte p{
+	color: white;
+    margin: 20px auto;
+    width: 90%;
+}
+
+#description {
+    text-align: left;
+    line-height: 120%;
+    font-size: large;
+    display: flex;
+    align-items: center;
+	min-width: 80%;
+	min-height: 100px;
+}
+
+.item_rond{
+	border: 4px dotted transparent;
+    transform: translate(-5px,5px);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    padding: 0px 20px;
+}
+
+.bloc_texte{
+	width: 50%;
+    max-width: 550px;
+}
+
+.contract .rond {
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10px;
+    position: relative;
+    border: 2px solid #fff;
+    box-shadow: 3px 1px 0 0 ;
+}
+
+.contract .rond p {
+	color: var(--text-color);
+}
+
+.item__content__description{
+	align-items: flex-end;
+}
+
 .process{
 	flex-direction: row;
 	align-items: flex-end;
@@ -1056,11 +1109,11 @@ ol, ul {
     border-color: transparent;
 }
 
-*, *:after, *:before {
+*:after, *:before {
     box-sizing: border-box;
 }
 
-*, *:after, *:before {
+*:after, *:before {
     box-sizing: border-box;
 }
 
