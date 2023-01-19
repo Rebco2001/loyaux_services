@@ -1488,4 +1488,7 @@ footer .footerSecondary {
 		margin-bottom: 0px;
 		font-size: 1.3rem;
 	}
+	.banniere{
+		padding: 20% 10% 0% 10%;
+	}
 }
