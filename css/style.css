@@ -928,6 +928,25 @@ margin-bottom: 20px;
 	margin-bottom: 1vh;
 }
 
+.mentions{
+	width: 90%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+	margin: auto;
+	margin-bottom: 1vh;
+}
+
+.mentions h1, .mentions h2{
+	text-align: left;
+	margin-bottom: 20px;
+}
+
 .particulier{
 	background-image: url(../images/2.png);
 }
