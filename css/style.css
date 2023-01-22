@@ -1218,6 +1218,10 @@ footer {
 	position: relative;
 }
 
+footer a{
+	color: inherit;
+}
+
 footer .footerMain,
 footer .footerSecondary {
 	width: 100%;
